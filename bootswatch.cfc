@@ -86,7 +86,7 @@ component{
 	// Screenshot URL, can be absolute or locally in your layout package.
 	this.screenShotURL	= "screenshot.png";
 	// ForgeBox slug if you want auto-update features
-	this.forgeBoxSlug	= "cblayouts-bootswatch3";
+	this.forgeBoxSlug	= "Bootswatch-layout-on-bootstrap-3";
 	// Layout Settings
 	this.settings = [
 		{ name="bootswatchTheme", defaultValue="default", required="false", type="select", label="Bootswatch Theme:", options="Default,Amelia,Cerulean,Cosmo,Cyborg,Flatly,Journal,Readable,Simplex,Slate,Spacelab,Superhero,United,Yeti" },
