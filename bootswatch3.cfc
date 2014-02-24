@@ -78,7 +78,7 @@ The value is an array of structures with the following keys:
 */
 component{
 	// Layout Variables
-	this.name 			= "Bootswatch3";
+        this.name               = "Bootswatch3";
 	this.description 	= "Bootswatch layout for ContentBox based on Bootstrap 3";
 	this.version		= "1.0";
 	this.author 		= "Tropicalista";
