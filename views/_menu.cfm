@@ -1,5 +1,5 @@
 ﻿<cfoutput>
-<div class="navbar navbar-default">
+<div class="navbar navbar-#lcase(cb.layoutsetting('navbarOptions','default'))#">
 	<div class="navbar-collapse collapse navbar-responsive-collapse">
 		<ul class="nav navbar-nav">
 			<cfset menuData = cb.rootMenu(type="data",levels="*")>
