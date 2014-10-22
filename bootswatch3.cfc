@@ -78,7 +78,7 @@ The value is an array of structures with the following keys:
 */
 component{
 	// Layout Variables
-        this.name               = "Bootswatch3";
+  this.name               = "Bootswatch3";
 	this.description 	= "Bootswatch layout for ContentBox based on Bootstrap 3";
 	this.version		= "1.0";
 	this.author 		= "Tropicalista";
@@ -89,7 +89,8 @@ component{
 	this.forgeBoxSlug	= "cblayouts-bootswatch3";
 	// Layout Settings
 	this.settings = [
-		{ name="bootswatchTheme", defaultValue="default", required="false", type="select", label="Bootswatch Theme:", options="Default,Amelia,Cerulean,Cosmo,Cyborg,Flatly,Journal,Readable,Simplex,Slate,Spacelab,Superhero,United,Yeti" },
+		{ name="bootswatchTheme", defaultValue="default", required="false", type="select", label="Bootswatch Theme:", options="Default,Amelia,Cerulean,Cosmo,Cyborg,Darkly,Flatly,Journal,Lumen,Paper,Readable,Sandstone,Simplex,Slate,Spacelab,Superhero,United,Yeti" },
+    { name="navbarOptions", defaultValue="Default", type="select", label="Navbar Options:", options="Default,Inverse" },
 		{ name="minifyCacheAssets", defaultValue="true", type="boolean", label="Minify/Cache Assets:" },
 		{ name="useLESS", defaultValue="true", type="boolean", label="Use LESS (Requires 'Minify/Cache Assets'):" }
 	];
