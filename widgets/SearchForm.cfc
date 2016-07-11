@@ -15,20 +15,18 @@ property name="cb"						inject="id:CBHelper@cb";
 property name="securityService" 		inject="id:securityService@cb";
 property name="html"					inject="coldbox:plugin:HTMLHelper";
 */
-component extends="contentbox.model.ui.BaseWidget" singleton{
+component extends="contentbox.models.ui.BaseWidget" singleton{
 	
 	SearchForm function init(controller){
-		// Init parent
-		super.init( arguments.controller );
 		
 		// Widget Properties
-		setPluginName("SearchForm");
-		setPluginVersion("1.0");
-		setPluginDescription("Simple widget to generate a search form");
-		setPluginAuthor("Tropicalista");
-		setPluginAuthorURL("http://www.tropicalseo.net");
-		setForgeBoxSlug("");
-		
+		setName("SearchForm");
+		setVersion("1.0");
+		setDescription("Simple widget to generate a search form");
+		setAuthor("Tropicalista");
+		setAuthorURL("http://www.tropicalseo.net");
+		setCategory( "Miscellaneous" );
+		setIcon( "search" );
 		return this;
 	}
 
